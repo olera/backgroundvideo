@@ -10,7 +10,6 @@
 
 /* Navbar links */
 #navbar a {
-  float: left;
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
@@ -61,7 +60,7 @@ a:active { color: #000000; text-decoration: none}
 
 /*FOOTER*/
 
-.footer {
+/* .footer {
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -69,3 +68,4 @@ a:active { color: #000000; text-decoration: none}
   width: 100%;
   padding: 1px;
 }
+ */
