@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Date Movie: New Orleans Short | All of Them Witches</title>
+	<meta name="description" content="A Short Film from Sasha Solodukhina and Emily MacKenzie">
+    <meta name="author" content="">
+
+    <!-- Viewport Meta Tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=">
+
+<!-- Link to Google Fonts here
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+ <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+<!-- JS -->
+<script src="myScript.js"></script>
+
+</head>
+
+<body id="home">
+
+<div id="navbar">
+<h1>
+  <a href="http://bit.ly/2yEFJI5">#datemovienola</a>
+  <a href="https://wilette.typeform.com/to/vamliE">Get Tickets</a>
+  <a href="https://bit.ly/2LDVzuS">Share</a>
+  <a href="mailto:WRITETOWITCHES@GMAIL.COM">Contact</a>
+</h1>
+</div>
+
+<!-- The Background Video -->
+
+<div class="vimeo-wrapper">
+   <iframe width="300" src="https://player.vimeo.com/video/359631441?background=1&autoplay=1&loop=1&byline=0&title=0"
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+
+<div class="footer">
+ <footer>
+ 	<h5>
+ 	<p>Copyright &copy;2019 <a href="#"> Olera</a>      <span style="padding-left: 1.8em">    Copyright &copy;2019 S Solodukhina. All Rights Reserved</span></p>
+ 	</h5>
+ </footer>
+</div>
+
+</body>
+</html>
