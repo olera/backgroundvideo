@@ -1,5 +1,9 @@
 /* Style the navbar */
 #navbar {
+  width: 100%;
+  float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
@@ -51,13 +55,21 @@
    transform: translate(-50%, -50%);
 }
 
+/*No Style on Links*/
+.
+
 /*FOOTER*/
 
-  .footer {
+.footer {
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   padding: 1px;
+}
+
+.footer a {
+  color: #000000; 
+  text-decoration: none}
 }
