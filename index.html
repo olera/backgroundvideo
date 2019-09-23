@@ -35,16 +35,7 @@ body {
 .topnav .icon {
   display: none;
 }
-#logo01{
-    position:absolute;
-    top:50%;
-    left:50%;
-   
-    cursor:pointer;
-    max-width:45%;
-    max-height:45%;
-    display:table;
-}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -65,6 +56,32 @@ body {
     text-align: left;
   }
 }
+
+/*Style the full width video
+*/
+
+.vimeo-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+pointer-events: none;
+overflow: hidden;
+}
+
+.vimeo-wrapper iframe {
+width: 100vw;
+height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+min-height: 100vh;
+min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+  
 </style>
 </head>
 <body>
@@ -79,8 +96,11 @@ body {
   </a>
 </div>
 
-<div id="logo01">
-    <img class="logo" src="https://atwitches.files.wordpress.com/2019/09/title.png" alt = 'DATE MOVIE' />
+  <!-- The Background Video -->
+
+<div class="vimeo-wrapper">
+   <iframe width="300" src="https://player.vimeo.com/video/359631441?background=1&autoplay=1&loop=1&byline=0&title=0"
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <script>
