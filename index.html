@@ -1,58 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Date Movie: New Orleans Short | All of Them Witches</title>
-	<meta name="description" content="A Short Film from Sasha Solodukhina and Emily MacKenzie">
-    <meta name="author" content="">
-
-    <!-- Viewport Meta Tag -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=">
-
-<!-- Link to Google Fonts here
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Raleway:800,600' rel='stylesheet' type='text/css'>
-
- <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="skeleton.css">
-  <link rel="stylesheet" href="custom.css">
-	
-	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- JS -->
-<script src="script.js"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+<style>
+body {
+  margin: 0;
+  font-family: Raleway;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 27px;
+}
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.topnav a.active {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+#logo01{
+    position:absolute;
+    top:50%;
+    left:50%;
+   
+    cursor:pointer;
+    max-width:45%;
+    max-height:45%;
+    display:table;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
 </head>
+<body>
 
-<body id="home">
-	
-<div class="navbar" id="myTopnav">
-  <a href="https://wilette.typeform.com/to/vamliE" class="active">Get Tickets</a>
-  <a href="http://bit.ly/2yEFJI5">#datemovie</a>
-  <a href="https://bit.ly/2LDVzuS">Trailer</a>
-  <a href="mailto:WRITETOWITCHES@GMAIL.COM"?subject=DATE%20MOVIE%20a%20Inquiry>Contact</a>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Trailer</a>
+  <a href="#news">Buy Tickets</a>
+  <a href="#about">#datemovie</a>
+  <a href="#contact">Contact</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
-<!-- The Background Video -->
-
-<div class="vimeo-wrapper">
-   <iframe width="300" src="https://player.vimeo.com/video/359631441?background=1&autoplay=1&loop=1&byline=0&title=0"
-           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div id="logo01">
+    <img class="logo" src="https://atwitches.files.wordpress.com/2019/09/title.png" alt = 'DATE MOVIE' />
 </div>
 
-
-<!-- <div class="footer">
- <footer>
- 	<h6>
- 	<p>Copyright &copy;2019 <a href="#"> Olera</a>      <span style="padding-left: 1.8em">    Copyright &copy;2019 S Solodukhina. All Rights Reserved</span></p>
- 	</h6>
- </footer>
-</div> -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 </html>
